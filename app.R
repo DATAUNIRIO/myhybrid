@@ -1,6 +1,7 @@
 
 #reticulate::use_condaenv('myhybrid', required = TRUE)
-reticulate::use_virtualenv('/home/myhybrid', required = TRUE)
+#reticulate::use_virtualenv('/home/myhybrid', required = TRUE)
+reticulate::use_virtualenv('C:/Users/Hp/Documents/GitHub/myhybrid', required = TRUE)
 library(reticulate)
 library(purrr)
 library(tibble)
